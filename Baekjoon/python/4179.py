@@ -46,14 +46,6 @@ visited = [[0] * k for _ in range(n)]
 flag = False
 q.append(start)
 
-def pa():
-  print("===fire===")
-  for line in fire:
-    print(line)
-  print("===Jinsu===")
-  for line in arrival:
-    print(line)
-
 while q:
   cur = q.popleft()
   cur_x = cur[0]
