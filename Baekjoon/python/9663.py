@@ -1,8 +1,8 @@
 n = int(input())
 
 line_visit = [0] * n
-upper_visit = [0] * 40
-lower_visit = [0] * 40
+upper_visit = [0] * 2*n
+lower_visit = [0] * 2*n
 global result
 result = 0
 
