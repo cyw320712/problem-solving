@@ -32,7 +32,7 @@ def solution(n, s, a, b, fares):
         return visited
 
     dp = [[]] + [dijkstra(i) for i in range(1, n+1)]
-    # print(dp)
+    
     for i in range(1, n+1):
         answer = min(dp[i][a] + dp[i][b] + dp[i][s], answer)
 
