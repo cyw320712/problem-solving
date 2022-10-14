@@ -3,7 +3,7 @@ package Level3;
 import java.util.*;
 import java.util.regex.*;
 
-class Solution {
+class 불량사용자 {
     HashSet<HashSet<String>> result;
     ArrayList<ArrayList<String>> banList;
 
