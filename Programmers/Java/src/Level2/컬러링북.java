@@ -15,7 +15,7 @@ class Point {
     }
 }
 
-class Solution {
+class 컬러링북 {
     public int[] solution(int m, int n, int[][] picture) {
         int numberOfArea = 0;
         int maxSizeOfOneArea = 0;

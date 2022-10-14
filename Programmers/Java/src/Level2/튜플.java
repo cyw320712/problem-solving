@@ -1,6 +1,8 @@
+package Level2;
+
 import java.util.*;
 
-class Solution {
+public class 튜플 {
     public int[] solution(String s) {
         int[] answer = {};
         List<String> set = new ArrayList<>();
