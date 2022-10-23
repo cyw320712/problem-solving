@@ -1,6 +1,6 @@
 package Medium;
 
-class Solutions {
+class longest_substring_without_repeating_characters {
     public int lengthOfLongestSubstring(String s) {
         int result = 0;
         int[] ascii;
@@ -25,13 +25,5 @@ class Solutions {
         }
 
         return result;
-    }
-}
-
-public class longest_substring_without_repeating_characters {
-
-    public static void main (String[] args) {
-        Solutions s = new Solutions();
-        System.out.println(s.lengthOfLongestSubstring("abcabcaaa"));
     }
 }

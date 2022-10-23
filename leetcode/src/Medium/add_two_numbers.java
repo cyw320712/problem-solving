@@ -8,7 +8,7 @@ class ListNode {
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  }
 
-class Solution {
+public class add_two_numbers {
     int carry;
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -65,7 +65,4 @@ class Solution {
 
         return val;
     }
-}
-
-public class add_two_numbers {
 }
